@@ -35,3 +35,10 @@ article {
 .verso {
     display: none;
 }
+article:hover .frente {
+    display: none;
+}
+
+article:hover .verso {
+    display: block;
+}
