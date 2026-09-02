@@ -41,18 +41,19 @@ article {
     box-sizing: border-box;
     text-align: center;
 }
-    }
+
+.frente {
+    visibility: visible;
 }
+
 .verso {
-    display: none;
+    visibility: hidden;
 }
+
 article:hover .frente {
-    display: none;
+    visibility: hidden;
 }
 
 article:hover .verso {
-    display: block;
-}
-article {
-    position: relative;
+    visibility: visible;
 }
