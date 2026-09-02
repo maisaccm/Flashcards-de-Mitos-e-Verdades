@@ -26,6 +26,7 @@ article {
     border-radius: 15px;
     padding: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
 }
 .frente, .verso {
     width: 100%;
