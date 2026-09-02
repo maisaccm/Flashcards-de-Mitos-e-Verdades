@@ -3,12 +3,14 @@ body {
     background-color: #f0f0f0;
     margin: 0;
 }
+
 header {
     background-color: #1e3a8a;
     color: white;
     padding: 20px;
     text-align: center;
 }
+
 main {
     padding: 30px;
     text-align: center;
@@ -27,8 +29,11 @@ article {
     padding: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
+    position: relative;
 }
-.frente, .verso {
+
+.frente,
+.verso {
     position: absolute;
     top: 0;
     left: 0;
