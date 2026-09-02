@@ -32,3 +32,6 @@ article {
     height: 100%;
     }
 }
+.verso {
+    display: none;
+}
