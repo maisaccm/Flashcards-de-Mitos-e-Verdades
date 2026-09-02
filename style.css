@@ -42,3 +42,6 @@ article:hover .frente {
 article:hover .verso {
     display: block;
 }
+article {
+    position: relative;
+}
